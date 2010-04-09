@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DaemonProxy.h"
 
-
-@interface RealmdProxy : NSObject {
+@interface RealmdProxy : DaemonProxy {
 
 }
 

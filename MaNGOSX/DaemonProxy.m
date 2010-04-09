@@ -10,7 +10,9 @@
 
 
 @implementation DaemonProxy
-	
+
+@synthesize daemon;
+
 - (void) start {
 	
 	

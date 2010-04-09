@@ -11,9 +11,11 @@
 
 @interface DaemonProxy : Proxy {
 	
-	NSTask *controller;
+	NSTask *daemon;
 	
 }
+
+@property (readonly) NSTask *daemon;
 
 - (void)start;
 - (void)stop;

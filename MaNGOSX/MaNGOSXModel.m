@@ -15,7 +15,9 @@
 	
 	if (self = [super init]) {
 		
-		
+		environmentSettings = [[EnvironmentProxy alloc] init];
+		realmDaemon = [[RealmdProxy alloc] init];
+		worldDaemon = [[WorlddProxy alloc] init];
 		
 	}
 	

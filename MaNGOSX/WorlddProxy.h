@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DaemonProxy.h"
 
-
-@interface WorlddProxy : NSObject {
+@interface WorlddProxy : DaemonProxy {
 
 }
 
