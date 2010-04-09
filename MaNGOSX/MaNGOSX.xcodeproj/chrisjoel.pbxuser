@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* MaNGOSXAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 679}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{0, 413}";
+			sepNavWindowFrame = "{{78, 11}, {1088, 807}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MaNGOSXAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 325}}";
+			sepNavSelRange = "{241, 0}";
+			sepNavVisRange = "{28, 429}";
+			sepNavWindowFrame = "{{88, 3}, {1088, 807}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* MaNGOSX_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {614, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+			sepNavWindowFrame = "{{42, 45}, {1088, 807}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 393B7E11116E3D9900E0C24B /* MaNGOSX */;
+		activeTarget = 8D1107260486CEB800E47090 /* MaNGOSX */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MaNGOSX */,
+		);
+		codeSenseManager = 393B7E1F116E3DA900E0C24B /* Code sense */;
+		executables = (
+			393B7E11116E3D9900E0C24B /* MaNGOSX */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					595,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					616,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					556.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					576,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292458403;
+			PBXWorkspaceStateSaveDate = 292458403;
+		};
+		perUserProjectItems = {
+			393B7E98116E86D100E0C24B /* PBXTextBookmark */ = 393B7E98116E86D100E0C24B /* PBXTextBookmark */;
+			39C58788116E90B7002E42FA /* PBXTextBookmark */ = 39C58788116E90B7002E42FA /* PBXTextBookmark */;
+			39C5879A116E9457002E42FA /* PBXTextBookmark */ = 39C5879A116E9457002E42FA /* PBXTextBookmark */;
+			39C587A2116E9490002E42FA /* PBXTextBookmark */ = 39C587A2116E9490002E42FA /* PBXTextBookmark */;
+			39C587B9116E983E002E42FA /* PBXTextBookmark */ = 39C587B9116E983E002E42FA /* PBXTextBookmark */;
+			39C587BA116E983E002E42FA /* PBXTextBookmark */ = 39C587BA116E983E002E42FA /* PBXTextBookmark */;
+			39C587BB116E983E002E42FA /* PBXTextBookmark */ = 39C587BB116E983E002E42FA /* PBXTextBookmark */;
+			39C587BC116E983E002E42FA /* PBXTextBookmark */ = 39C587BC116E983E002E42FA /* PBXTextBookmark */;
+			39C587BD116E983E002E42FA /* PBXTextBookmark */ = 39C587BD116E983E002E42FA /* PBXTextBookmark */;
+			39C587BF116E983E002E42FA /* PBXTextBookmark */ = 39C587BF116E983E002E42FA /* PBXTextBookmark */;
+			39C587C4116E983E002E42FA /* PBXTextBookmark */ = 39C587C4116E983E002E42FA /* PBXTextBookmark */;
+			39C587C7116E9916002E42FA /* PBXTextBookmark */ = 39C587C7116E9916002E42FA /* PBXTextBookmark */;
+			39C587D7116E99AD002E42FA /* PBXTextBookmark */ = 39C587D7116E99AD002E42FA /* PBXTextBookmark */;
+			39C587E4116EA2B7002E42FA /* PBXTextBookmark */ = 39C587E4116EA2B7002E42FA /* PBXTextBookmark */;
+			39C587E6116EA2BB002E42FA /* XCBuildMessageTextBookmark */ = 39C587E6116EA2BB002E42FA /* XCBuildMessageTextBookmark */;
+			39C587F3116EA350002E42FA /* PBXTextBookmark */ = 39C587F3116EA350002E42FA /* PBXTextBookmark */;
+			39C587F4116EA350002E42FA /* PBXTextBookmark */ = 39C587F4116EA350002E42FA /* PBXTextBookmark */;
+			39C587F5116EA350002E42FA /* PBXBookmark */ = 39C587F5116EA350002E42FA /* PBXBookmark */;
+			39C587F6116EA350002E42FA /* PBXTextBookmark */ = 39C587F6116EA350002E42FA /* PBXTextBookmark */;
+			39C58803116EA57C002E42FA /* PlistBookmark */ = 39C58803116EA57C002E42FA /* PlistBookmark */;
+			39C58817116EA69F002E42FA /* PBXTextBookmark */ = 39C58817116EA69F002E42FA /* PBXTextBookmark */;
+			39C58818116EA69F002E42FA /* PBXTextBookmark */ = 39C58818116EA69F002E42FA /* PBXTextBookmark */;
+			39C5881A116EA69F002E42FA /* PBXTextBookmark */ = 39C5881A116EA69F002E42FA /* PBXTextBookmark */;
+			39C5881C116EA69F002E42FA /* PBXTextBookmark */ = 39C5881C116EA69F002E42FA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 393B7E1E116E3DA900E0C24B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 256}";
+			sepNavWindowFrame = "{{65, 24}, {1088, 807}}";
+		};
+	};
+	393B7E11116E3D9900E0C24B /* MaNGOSX */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MaNGOSX;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	393B7E1E116E3DA900E0C24B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	393B7E1F116E3DA900E0C24B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	393B7E8D116E855000E0C24B /* DaemonProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 656}}";
+			sepNavSelRange = "{240, 0}";
+			sepNavVisRange = "{0, 277}";
+		};
+	};
+	393B7E8E116E855000E0C24B /* DaemonProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 679}}";
+			sepNavSelRange = "{153, 0}";
+			sepNavVisRange = "{0, 251}";
+			sepNavWindowFrame = "{{19, 66}, {1088, 807}}";
+		};
+	};
+	393B7E91116E85A800E0C24B /* RealmdProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 208}";
+		};
+	};
+	393B7E92116E85A800E0C24B /* RealmdProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	393B7E94116E85BC00E0C24B /* WorlddProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {727, 289}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 208}";
+		};
+	};
+	393B7E98116E86D100E0C24B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E94116E85BC00E0C24B /* WorlddProxy.h */;
+		name = "WorlddProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	39C58788116E90B7002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MaNGOSXAppDelegate.m */;
+		name = "MaNGOSXAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 408;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 0;
+	};
+	39C58794116E9442002E42FA /* Proxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 679}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 201}";
+		};
+	};
+	39C58795116E9442002E42FA /* Proxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
+	39C5879A116E9457002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E8E116E855000E0C24B /* DaemonProxy.m */;
+		name = "DaemonProxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 244;
+		vrLoc = 0;
+	};
+	39C587A2116E9490002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E8E116E855000E0C24B /* DaemonProxy.m */;
+		name = "DaemonProxy.m: 9";
+		rLen = 0;
+		rLoc = 153;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	39C587A6116E94CC002E42FA /* EnvironmentProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 232}";
+		};
+	};
+	39C587A9116E9525002E42FA /* MaNGOSXModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 390}}";
+			sepNavSelRange = "{376, 0}";
+			sepNavVisRange = "{134, 407}";
+		};
+	};
+	39C587AA116E9525002E42FA /* MaNGOSXModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 403}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{134, 221}";
+		};
+	};
+	39C587B9116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E92116E85A800E0C24B /* RealmdProxy.m */;
+		name = "RealmdProxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	39C587BA116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E91116E85A800E0C24B /* RealmdProxy.h */;
+		name = "RealmdProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	39C587BB116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C587A6116E94CC002E42FA /* EnvironmentProxy.h */;
+		name = "EnvironmentProxy.h: 10";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	39C587BC116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C58795116E9442002E42FA /* Proxy.m */;
+		name = "Proxy.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	39C587BD116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C58794116E9442002E42FA /* Proxy.h */;
+		name = "Proxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	39C587BF116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C587AA116E9525002E42FA /* MaNGOSXModel.m */;
+		name = "MaNGOSXModel.m: 28";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 134;
+	};
+	39C587C4116E983E002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C58794116E9442002E42FA /* Proxy.h */;
+		name = "Proxy.h: 14";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	39C587C7116E9916002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E8D116E855000E0C24B /* DaemonProxy.h */;
+		name = "DaemonProxy.h: 14";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 3;
+	};
+	39C587D7116E99AD002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 393B7E8D116E855000E0C24B /* DaemonProxy.h */;
+		name = "DaemonProxy.h: 16";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 0;
+	};
+	39C587E4116EA2B7002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C587A9116E9525002E42FA /* MaNGOSXModel.h */;
+		name = "MaNGOSXModel.h: 24";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	39C587E6116EA2BB002E42FA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Assign attribute (default) not appropriate for non-gc object property 'model'";
+		fRef = 256AC3D80F4B6AC300CF3369 /* MaNGOSXAppDelegate.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 21;
+		rType = 1;
+	};
+	39C587F3116EA350002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MaNGOSXAppDelegate.m */;
+		name = "MaNGOSXAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 241;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 28;
+	};
+	39C587F4116EA350002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MaNGOSXAppDelegate.h */;
+		name = "MaNGOSXAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	39C587F5116EA350002E42FA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 39C587EB116EA2FD002E42FA /* mangosxicon.icns */;
+	};
+	39C587F6116EA350002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	39C58803116EA57C002E42FA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MaNGOSX-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = "/Users/chrisjoel/Documents/Xcode/Mangosx/MaNGOSX-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	39C58817116EA69F002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C587A9116E9525002E42FA /* MaNGOSXModel.h */;
+		name = "MaNGOSXModel.h: 20";
+		rLen = 0;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 134;
+	};
+	39C58818116EA69F002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C58819116EA69F002E42FA /* scriptdev2.conf.dist */;
+		name = "scriptdev2.conf.dist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 0;
+	};
+	39C58819116EA69F002E42FA /* scriptdev2.conf.dist */ = {
+		isa = PBXFileReference;
+		name = scriptdev2.conf.dist;
+		path = /Users/chrisjoel/Documents/Xcode/MaNGOSX/cli/etc/scriptdev2.conf.dist;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {794, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 650}";
+		};
+	};
+	39C5881A116EA69F002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39C5881B116EA69F002E42FA /* scriptdev2.conf.dist */;
+		name = "scriptdev2.conf.dist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 0;
+	};
+	39C5881B116EA69F002E42FA /* scriptdev2.conf.dist */ = {
+		isa = PBXFileReference;
+		name = scriptdev2.conf.dist;
+		path = /Users/chrisjoel/Documents/Xcode/MaNGOSX/cli/etc/scriptdev2.conf.dist;
+		sourceTree = "<absolute>";
+	};
+	39C5881C116EA69F002E42FA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MaNGOSXAppDelegate.h */;
+		name = "MaNGOSXAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* MaNGOSX */ = {
+		activeExec = 0;
+		executables = (
+			393B7E11116E3D9900E0C24B /* MaNGOSX */,
+		);
+	};
+}
