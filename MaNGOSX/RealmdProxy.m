@@ -11,4 +11,16 @@
 
 @implementation RealmdProxy
 
+- (id)init {
+	
+	if (self = [super init]) {
+		
+		NSLog(@"RealmdProxy init complete..");
+		
+	}
+	
+	return self;
+	
+}
+
 @end

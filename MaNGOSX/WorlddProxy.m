@@ -11,4 +11,16 @@
 
 @implementation WorlddProxy
 
+- (id)init {
+	
+	if (self = [super init]) {
+		
+		NSLog(@"WorlddProxy init complete..");
+		
+	}
+	
+	return self;
+	
+}
+
 @end

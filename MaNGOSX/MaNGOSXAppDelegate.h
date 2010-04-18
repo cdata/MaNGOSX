@@ -19,6 +19,6 @@
 
 
 @property (assign) IBOutlet NSWindow *window;
-@property (readonly) MaNGOSXModel *model;
+@property (readonly) IBOutlet MaNGOSXModel *model;
 
 @end

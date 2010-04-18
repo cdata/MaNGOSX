@@ -11,4 +11,20 @@
 
 @implementation Proxy
 
+- (id)init {
+	
+	if (self = [super init]) {
+		
+		NSLog(@"Proxy init complete..");
+		
+	}
+	
+	
+	//[NSNotificationCenter defaultCenter];
+	//[NSNotification notificationWithName:self];
+	
+	return self;
+	
+}
+
 @end

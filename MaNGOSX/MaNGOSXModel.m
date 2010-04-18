@@ -11,13 +11,22 @@
 
 @implementation MaNGOSXModel
 
+@synthesize environmentSettings;
+@synthesize realmDaemon;
+@synthesize worldDaemon;
+
 - (id)init {
 	
 	if (self = [super init]) {
 		
-		environmentSettings = [[EnvironmentProxy alloc] init];
-		realmDaemon = [[RealmdProxy alloc] init];
-		worldDaemon = [[WorlddProxy alloc] init];
+		NSLog(@"Beginning init of model..");
+		
+		environmentSettings = [[EnvironmentProxy alloc] initWithConfigFile:@"Config"];
+		
+		//realmDaemon = [[RealmdProxy alloc] init];
+		//worldDaemon = [[WorlddProxy alloc] init];
+		
+		NSLog(@"MaNGOSXModel init complete");
 		
 	}
 	
@@ -25,8 +34,17 @@
 	
 }
 
-@synthesize environmentSettings;
-@synthesize realmDaemon;
-@synthesize worldDaemon;
+- (BOOL)someTrueValue {
+	
+	return TRUE;
+	
+}
+
+- (BOOL)someFalseValue {
+	
+	return FALSE;
+	
+}
+
 
 @end

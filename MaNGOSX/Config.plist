@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Configuration directory</key>
+	<string>cli/etc/</string>
+	<key>Realmd configuration template</key>
+	<string>realmd.plist</string>
+	<key>Worldd configuration template</key>
+	<string>worldd.plist</string>
+	<key>ScriptDev2 configuration template</key>
+	<string>scriptdev.plist</string>
+</dict>
+</plist>

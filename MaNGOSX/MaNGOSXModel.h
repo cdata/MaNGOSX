@@ -23,7 +23,8 @@
 @property (readonly) RealmdProxy *realmDaemon;
 @property (readonly) WorlddProxy *worldDaemon;
 
-
+- (BOOL) someTrueValue;
+- (BOOL) someFalseValue;
 
 
 @end

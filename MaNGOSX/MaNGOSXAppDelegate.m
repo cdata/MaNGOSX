@@ -17,8 +17,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
 	
-	model = [[MaNGOSXModel alloc] init];
-	
+	//model = [[MaNGOSXModel alloc] init];
+	NSLog(@"The application did finish launching, didn't it..");
 }
 
 @end

@@ -13,6 +13,20 @@
 
 @synthesize daemon;
 
+//- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+
+- (id)init {
+	
+	if (self = [super init]) {
+		
+		NSLog(@"DaemonProxy init complete..");
+		
+	}
+	
+	return self;
+	
+}
+
 - (void) start {
 	
 	

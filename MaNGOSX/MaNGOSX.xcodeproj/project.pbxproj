@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MaNGOSX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MaNGOSX.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* MaNGOSXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MaNGOSXAppDelegate.m */; };
+		390313451177E4570066B1CD /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 390313441177E4570066B1CD /* Config.plist */; };
 		393B7E35116E6EA700E0C24B /* process-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 393B7E33116E6EA700E0C24B /* process-stop.png */; };
 		393B7E36116E6EA700E0C24B /* system-shutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 393B7E34116E6EA700E0C24B /* system-shutdown.png */; };
 		393B7E8F116E855000E0C24B /* DaemonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B7E8E116E855000E0C24B /* DaemonProxy.m */; };
@@ -18,7 +19,7 @@
 		39C58796116E9442002E42FA /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C58795116E9442002E42FA /* Proxy.m */; };
 		39C587A8116E94CC002E42FA /* EnvironmentProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C587A7116E94CC002E42FA /* EnvironmentProxy.m */; };
 		39C587AB116E9525002E42FA /* MaNGOSXModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C587AA116E9525002E42FA /* MaNGOSXModel.m */; };
-		39C587EC116EA2FD002E42FA /* mangosxicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39C587EB116EA2FD002E42FA /* mangosxicon.icns */; };
+		39C587EC116EA2FD002E42FA /* MaNGOSXIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 39C587EB116EA2FD002E42FA /* MaNGOSXIcon.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -35,6 +36,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		390313441177E4570066B1CD /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		393B7E33116E6EA700E0C24B /* process-stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "process-stop.png"; sourceTree = "<group>"; };
 		393B7E34116E6EA700E0C24B /* system-shutdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "system-shutdown.png"; sourceTree = "<group>"; };
 		393B7E8D116E855000E0C24B /* DaemonProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaemonProxy.h; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		39C587A7116E94CC002E42FA /* EnvironmentProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentProxy.m; sourceTree = "<group>"; };
 		39C587A9116E9525002E42FA /* MaNGOSXModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaNGOSXModel.h; sourceTree = "<group>"; };
 		39C587AA116E9525002E42FA /* MaNGOSXModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaNGOSXModel.m; sourceTree = "<group>"; };
-		39C587EB116EA2FD002E42FA /* mangosxicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = mangosxicon.icns; path = ../MaNGOSX/mangosxicon.icns; sourceTree = SOURCE_ROOT; };
+		39C587EB116EA2FD002E42FA /* MaNGOSXIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MaNGOSXIcon.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MaNGOSX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MaNGOSX-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MaNGOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaNGOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,10 +133,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				39C587EB116EA2FD002E42FA /* mangosxicon.icns */,
+				39C587EB116EA2FD002E42FA /* MaNGOSXIcon.icns */,
 				8D1107310486CEB800E47090 /* MaNGOSX-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MaNGOSX.xib */,
+				390313441177E4570066B1CD /* Config.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -238,7 +241,8 @@
 				393B7E35116E6EA700E0C24B /* process-stop.png in Resources */,
 				393B7E36116E6EA700E0C24B /* system-shutdown.png in Resources */,
 				393B8123116E8C0F00E0C24B /* cli in Resources */,
-				39C587EC116EA2FD002E42FA /* mangosxicon.icns in Resources */,
+				39C587EC116EA2FD002E42FA /* MaNGOSXIcon.icns in Resources */,
+				390313451177E4570066B1CD /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

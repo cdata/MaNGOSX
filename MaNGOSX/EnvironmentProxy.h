@@ -10,7 +10,12 @@
 #import "Proxy.h"
 
 @interface EnvironmentProxy : Proxy {
-
+	
+	NSString *configurationFilePath;
+	NSMutableDictionary *configuration;
+	
 }
+
+- (id)initWithConfigFile:(NSString *)configFilename;
 
 @end
