@@ -13,8 +13,22 @@
 	
 	NSString *configurationFilePath;
 	NSMutableDictionary *configuration;
+	NSMutableDictionary *realmdSettings;
+	NSMutableDictionary *worlddSettings;
+	NSMutableDictionary *scriptDevSettings;
+	
+	NSString *sqlDirectory;
+	NSString *configurationDirectory;
+	NSString *binaryDirectory;
 	
 }
+
+@property (assign) NSMutableDictionary *realmdSettings;
+@property (assign) NSMutableDictionary *worlddSettings;
+@property (assign) NSMutableDictionary *scriptDevSettings;
+@property (assign) NSString *sqlDirectory;
+@property (assign) NSString *configurationDirectory;
+@property (assign) NSString *binaryDirectory;
 
 - (id)initWithConfigFile:(NSString *)configFilename;
 

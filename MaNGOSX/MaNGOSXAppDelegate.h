@@ -7,18 +7,19 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MaNGOSXModel.h"
+#import "MaNGOSXModel.h";
 
 @interface MaNGOSXAppDelegate : NSObject <NSApplicationDelegate> {
     
 	NSWindow *window;
 	MaNGOSXModel *model;
 	
+	NSDictionaryController *realmdSettingsController;
+	
 }
 
-
-
 @property (assign) IBOutlet NSWindow *window;
-@property (readonly) IBOutlet MaNGOSXModel *model;
+@property (assign) IBOutlet NSDictionaryController *realmdSettingsController;
+@property (assign) MaNGOSXModel *model;
 
 @end

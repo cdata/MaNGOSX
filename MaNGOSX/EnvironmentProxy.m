@@ -11,6 +11,13 @@
 
 @implementation EnvironmentProxy
 
+@synthesize realmdSettings;
+@synthesize worlddSettings;
+@synthesize scriptDevSettings;
+@synthesize sqlDirectory;
+@synthesize configurationDirectory;
+@synthesize binaryDirectory;
+
 - (id)initWithConfigFile:(NSString *)configFilename {
 	
 	if(self = [super init]) {
@@ -20,7 +27,18 @@
 		configurationFilePath = [[NSBundle mainBundle] pathForResource:configFilename ofType:@"plist" inDirectory:@""];
 		configuration = [[NSMutableDictionary alloc] initWithContentsOfFile: configurationFilePath];
 		
-		NSLog(@"Read the following config: %@", [configuration objectForKey:@"TestProperty"]);
+		realmdSettings = [[configuration valueForKey:@"MaNGOS defaults"] valueForKey:@"Realmd"];
+		worlddSettings = [[configuration valueForKey:@"MaNGOS defaults"] valueForKey:@"Worldd"];
+		scriptDevSettings = [[configuration valueForKey:@"MaNGOS defaults"] valueForKey:@"ScriptDev"];
+		
+		sqlDirectory = [configuration valueForKey:@"SQL directory"];
+		configurationDirectory = [configuration valueForKey:@"Configuration directory"];
+		binaryDirectory = [configuration valueForKey:@"Binary directory"];
+		
+		
+		
+		
+		NSLog(@"sqlDirectory: %@", sqlDirectory);
 		
 	}
 	
@@ -30,13 +48,7 @@
 
 - (id)init {
 	
-	if (self = [super init]) {
-		
-		NSLog(@"EnvironmentProxy init complete..");
-		
-	}
-	
-	return self;
+	return [self initWithConfigFile:@"Config"];
 	
 }
 

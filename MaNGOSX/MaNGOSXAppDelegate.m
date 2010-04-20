@@ -7,18 +7,21 @@
 //
 
 #import "MaNGOSXAppDelegate.h"
-#import "MaNGOSXModel.h"
 
 @implementation MaNGOSXAppDelegate
 
 @synthesize window;
 @synthesize model;
+@synthesize realmdSettingsController;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application 
 	
-	//model = [[MaNGOSXModel alloc] init];
-	NSLog(@"The application did finish launching, didn't it..");
+	model = [[MaNGOSXModel alloc] init];
+	
+	[realmdSettingsController setContent:[[model environmentSettings] realmdSettings]];
+	
+	NSLog(@"The application did finish launching, didn't it.. just fyi, realmdSettings.count == %d", [[[model environmentSettings] realmdSettings] count]);
+	
 }
 
 @end

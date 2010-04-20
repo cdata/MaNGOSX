@@ -23,8 +23,8 @@
 		
 		environmentSettings = [[EnvironmentProxy alloc] initWithConfigFile:@"Config"];
 		
-		//realmDaemon = [[RealmdProxy alloc] init];
-		//worldDaemon = [[WorlddProxy alloc] init];
+		realmDaemon = [[RealmdProxy alloc] init];
+		worldDaemon = [[WorlddProxy alloc] init];
 		
 		NSLog(@"MaNGOSXModel init complete");
 		
@@ -33,18 +33,5 @@
 	return self;
 	
 }
-
-- (BOOL)someTrueValue {
-	
-	return TRUE;
-	
-}
-
-- (BOOL)someFalseValue {
-	
-	return FALSE;
-	
-}
-
 
 @end

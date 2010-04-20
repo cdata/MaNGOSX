@@ -19,12 +19,9 @@
 	
 }
 
-@property (readonly) EnvironmentProxy *environmentSettings;
-@property (readonly) RealmdProxy *realmDaemon;
-@property (readonly) WorlddProxy *worldDaemon;
-
-- (BOOL) someTrueValue;
-- (BOOL) someFalseValue;
+@property (assign) EnvironmentProxy *environmentSettings;
+@property (assign) RealmdProxy *realmDaemon;
+@property (assign) WorlddProxy *worldDaemon;
 
 
 @end
